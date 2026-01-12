@@ -47,6 +47,88 @@ Este projeto integra dados de CRM próprio com metodologias avançadas de PNL e 
 
 ---
 
+## 🧩 Arquitetura da Solução
+
+A solução foi construída em camadas, desde a captura de dados brutos até a geração de ações preventivas em tempo real.
+
+### 🔹 Camada 1 – Fontes de Dados
+
+- **CRM próprio**
+- **Speech Analytics** (áudio → texto)
+- **Text Analytics** (texto de pesquisas, comentários, chats)
+
+Essas fontes alimentam o pipeline com conversas e feedbacks brutos de clientes.
+
+---
+
+### 🔹 Camada 2 – Pipeline de IA & PNL
+
+- **Ingestão & limpeza de texto**
+- **Detecção de expressões chave e geração de WordCloud**
+- **Pareto de motivos de reclamação**
+- **Classificação de temas** (Processos, Pessoas, Negócio)
+- **Cálculo de volumetria por canal, local e equipe**
+- **Identificação de menções críticas e risco de attrition**
+
+Aqui entram as regras de negócio, NLP e lógica de categorização que transformam texto em dados estruturados.
+
+---
+
+### 🔹 Camada 3 – Camada Analítica (Notebook)
+
+- **Notebook principal:** `notebooks/pipeline_insights_cx.ipynb`
+- Criação e tratamento de:
+  - `Fato_Pesquisas`
+  - `Fato_Respostas`
+  - Tabelas de parâmetros de filtro
+  - Tabelas de suporte estatístico (ex.: desvio padrão)
+
+Essa camada consolida a saída do pipeline de IA & PNL e prepara o modelo tabular para consumo no BI.
+
+---
+
+### 🔹 Camada 4 – Modelo BI & DAX
+
+- **Ferramenta:** Power BI
+- **Lógica de negócio implementada via DAX**, incluindo:
+  - Métricas de volumetria por canal
+  - Propensão de attrition por tema, canal, local e equipe
+  - NPS, rankings e paretos de motivos
+  - Indicadores de produção e performance (carga, tempo de atualização, capacity)
+
+Detalhes adicionais de métricas estão documentados em:
+- `metrics/tabela_metricas_dax.md`
+- `metrics/indicadores_utilizados.md`
+- `metrics/exemplos_dax.txt`
+
+---
+
+### 🔹 Camada 5 – Camada de Consumo (Dashboards & IA)
+
+- **Páginas do dashboard:**
+  - Página 1: Insights & Causa Raiz
+  - Página 2: IA & Propensão de Attrition
+  - Página 3: Volumetria & Estatística
+  - Página 4: PNL Isolada
+- **Chat com IA** para:
+  - Consultar volumetria
+  - Gerar cenários
+  - Tirar dúvidas sobre resultados
+  - Sugerir ações
+
+Essa camada conecta usuários de negócio diretamente aos insights gerados pela solução.
+
+---
+
+### 🔹 Camada 6 – Impacto e Ações
+
+- **Recuperação de NPS** de 35,77 para 61,32 em 2 meses
+- **Automação de relatórios**: de semanal para diário
+- **Mapeamento automático de causa raiz** e motivos prioritários
+- **Identificação preventiva de casos de alto attrition**
+
+Essa arquitetura fecha o ciclo completo: dado bruto → inteligência de IA/PNL → decisão → resultado de negócio.
+
 ## 🛠️ Ferramentas Utilizadas
 
 * **IA & NLP:** Speech/Text Analytics para captura de strings e análise de sentimento  
