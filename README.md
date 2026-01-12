@@ -1,3 +1,7 @@
+![Status](https://img.shields.io/badge/status-em%20produção-green)
+![IA](https://img.shields.io/badge/IA-integrada-blue)
+![CX](https://img.shields.io/badge/CX-inteligência%20ativa-orange)
+
 # NLP Insights & CX Intelligence | Inteligência Artificial e PNL
 
 ## 🚀 Resultados e Impacto
