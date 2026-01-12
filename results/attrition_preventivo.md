@@ -4,7 +4,7 @@
 Mapeamento automático de casos com alta propensão jurídica e ações preventivas em tempo real.
 
 ## 🔍 Como foi feito
-- Classificação de risco via NLP
+- Classificação de risco via PNL e ensinar o código a capturar Strings específicas no speech
 - Chat com IA para interação com o usuário
 - Gatilhos de ação preventiva integrados ao CRM
 
