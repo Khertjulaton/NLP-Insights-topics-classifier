@@ -1,1 +1,43 @@
+-- Exemplo 1: Isolar volumetria por local específico
+Vol RQ = 
+VAR VolRQ = CALCULATE(
+    [Volume pesquisas],
+    FILTER(
+        Fato_Pesquisas,
+            CONTAINSSTRING(Fato_Pesquisas[SITE], "Rio Quente")
+    )
+)
+RETURN
+VolRQ
+
+-- Exemplo 2: Capturar menções de propaganda enganosa
+Verbalização de Propagandas = 
+VAR Volume_categorizacoes = COUNTROWS(Fato_Pesquisas)
+VAR propaganda = CALCULATE(
+    [Volume pesquisas],
+    FILTER(Fato_Pesquisas, CONTAINSSTRING(Fato_Pesquisas[Menção], "propaganda enganosa"))
+)
+VAR anuncio = CALCULATE(
+    [Volume pesquisas],
+    FILTER(Fato_Pesquisas, CONTAINSSTRING(Fato_Pesquisas[Menção], "anúncio"))
+)
+RETURN
+propaganda + anuncio
+
+-- Exemplo 3: Capturar propensão de attrition por tema "Manutenções"
+Reclamações Manutenção = 
+CALCULATE(
+    COUNTROWS('Fato_Pesquisas'),
+    'Fato_Pesquisas'[Reclamação/Elogio] = "Reclamação",
+    KEEPFILTERS(
+        FILTER(
+            ALLSELECTED('Fato_Pesquisas'[Menção]),
+            SEARCH("manutenção", 'Fato_Pesquisas'[Menção], 1, 0) > 0 ||
+            SEARCH("obra", 'Fato_Pesquisas'[Menção], 1, 0) > 0 ||
+            SEARCH("interditado", 'Fato_Pesquisas'[Menção], 1, 0) > 0 ||
+            SEARCH("barulho de obra", 'Fato_Pesquisas'[Menção], 1, 0) > 0 ||
+            SEARCH("construção", 'Fato_Pesquisas'[Menção], 1, 0) > 0
+        )
+    )
+)
 
