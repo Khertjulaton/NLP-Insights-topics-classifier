@@ -50,4 +50,56 @@ Identificar riscos de perda de clientes e mapear padrões críticos por canal, e
 
 ---
 
-## 🤖
+## 🤖 Página 2.1 — Chat com IA
+
+### 🎯 Objetivo
+Permitir interação direta com o usuário para:
+- Consultar volumetria
+- Gerar cenários
+- Tirar dúvidas
+- Explicar resultados
+- Sugerir ações
+
+### 🧠 Componentes
+- **Simulador GPT** integrado ao CRM
+- **Prompt Engineering** para respostas contextualizadas
+- **Ações recomendadas** baseadas em padrões detectados
+
+*(Você pode adicionar o GIF aqui quando quiser.)*
+
+---
+
+## 🟧 Página 3 — Volumetria & Estatística
+
+### 🎯 Objetivo
+Monitorar a saúde operacional da coleta de pesquisas e garantir estabilidade estatística.
+
+### 🧠 Componentes
+- **Volumetria por Canal**
+- **Meta de Volume**
+- **Desvio Padrão e Controle Estatístico**
+- **Distribuição temporal**
+
+### 🖼️ Visual
+![Página 3](https://i.postimg.cc/HLsyNnSc/Página_3_Volumetria.gif)
+
+---
+
+## 🟪 Página 4 — PNL Isolada
+
+### 🎯 Objetivo
+Explorar insights descritivos sem interferência de filtros ou segmentações.
+
+### 🧠 Componentes
+- **WordCloud isolada**
+- **Análise de termos emergentes**
+- **Detecção de temas espontâneos**
+
+### 🖼️ Visual
+![Página 4](https://i.postimg.cc/t49Z17GW/Página_4_PNL_isolada.gif)
+
+---
+
+## 📌 Observação
+Todos os visuais foram anonimizados e mascarados conforme LGPD.  
+O objetivo desta pasta é demonstrar a arquitetura visual e a lógica analítica do projeto.
