@@ -1,6 +1,19 @@
 # NLP Insights & CX Intelligence | Inteligência Artificial e PNL
 
+## 🚀 Resultados e Impacto
+
+Este projeto gerou ganhos concretos para a operação:
+
+- 📈 **Recuperação de NPS**: O projeto provocou uma gestão real time de indicadores de satisfação ajudando o NPS sair de 35,77 em Julho/2025 para 61,32 em Setembro/2025
+- ⚙️ **Automação de relatórios**: De semanal (terça-feira) para **Atualização diária**
+- 🧠 **Adoção de IA** para detecção de padrões e alavancas de resultado
+- 🔍 **Mapeamento automático de causa raiz** colaborando em melhoria contínua de jornada (antes manual)
+- 🛡️ **Identificação preventiva** de situações de alto attrition capturadas pelo código
+
+---
+
 ## 📊 Demonstração do Projeto
+
 <table>
   <tr>
     <td><b>Página 1: Insights e Causa Raiz</b></td>
@@ -20,30 +33,37 @@
   </tr>
 </table>
 
+---
+
 ## 📌 Visão Geral
+
 Este projeto integra dados de CRM próprio com metodologias avançadas de PNL e Inteligência Artificial. Utiliza um simulador de GPT e algoritmos de captura de strings via Speech e Text Analytics para transformar conversas brutas em insights acionáveis de experiência do cliente.
 
 > **Nota de Confidencialidade:** Devido a políticas de LGPD, dados sensíveis e nomes de colunas reais foram omitidos ou mascarados. O foco deste repositório é demonstrar a arquitetura da solução e os resultados de negócio obtidos.
 
-## 🚀 Resultados Alcançados (Desde Junho de 2025)
-* **Automação:** Atualização de dados evoluiu de frequência semanal para **diária** via integração de APIs.
-* **Engajamento:** 100% dos gerentes utilizam a ferramenta para planos de reversão de KPIs.
-* **Tomada de Decisão:** Insumo principal para 100% das DREs oficiais com a diretoria.
+---
 
 ## 🛠️ Ferramentas Utilizadas
-* **IA & NLP:** Speech/Text Analytics para captura de strings e análise de sentimento.
-* **UX/UI Design:** Figma para prototipação de alta fidelidade.
-* **Arquitetura:** SQL para manipulação e Discovery de Dados.
-* **BI:** Power BI e DAX avançado para simulação de cenários.
-* **Metodologia:** SCRUM, Lean Six Sigma (LSS) e Discovery de Negócios (Confluence).
+
+* **IA & NLP:** Speech/Text Analytics para captura de strings e análise de sentimento  
+* **UX/UI Design:** Figma para prototipação de alta fidelidade  
+* **Arquitetura:** SQL para manipulação e Discovery de Dados  
+* **BI:** Power BI e DAX avançado para simulação de cenários  
+* **Metodologia:** SCRUM, Lean Six Sigma (LSS) e Discovery de Negócios (Confluence)
+
+---
 
 ## 📂 Estrutura do Repositório
-* `/visuals`: Capturas da interface e fluxos de NLP.
-* `/metrics`: Fórmulas DAX e lógica de predição de attrition.
-* `/documentation`: Case Study detalhando o Discovery de Negócios e Dados.
-* `/results`: Resultados consolidados de reversão de KPIs.
+
+* `/visuals`: Capturas da interface e fluxos de NLP  
+* `/metrics`: Fórmulas DAX e lógica de predição de attrition  
+* `/documentation`: Case Study detalhando o Discovery de Negócios e Dados  
+* `/results`: Resultados consolidados de reversão de KPIs
+
+---
 
 ## 👤 Autor
-**Jessé Oliveira de Castro**
-* <a href="https://www.linkedin.com/in/jesse-oliveira-de-castro-88421536/" target="_blank">LinkedIn Profissional</a>
+
+**Jessé Oliveira de Castro**  
+* <a href="https://www.linkedin.com/in/jesse-oliveira-de-castro-88421536/" target="_blank">LinkedIn Profissional</a>  
 * <a href="https://portfolio-jesseoliveiracastro.netlify.app/" target="_blank">Portfólio Profissional</a>
