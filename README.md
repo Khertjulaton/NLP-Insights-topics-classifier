@@ -141,10 +141,11 @@ Essa arquitetura fecha o ciclo completo: dado bruto → inteligência de IA/PNL 
 
 ## 📂 Estrutura do Repositório
 
-* `/visuals`: Capturas da interface e fluxos de NLP  
 * `/metrics`: Fórmulas DAX e lógica de predição de attrition  
-* `/documentation`: Case Study detalhando o Discovery de Negócios e Dados  
+* `/Notebooks`: Pipiline do projeto (camada final)
 * `/results`: Resultados consolidados de reversão de KPIs
+* `/visuals`: Capturas da interface e fluxos de NLP 
+* `/documentation`: README, LICENSE 
 
 ---
 
