@@ -1,4 +1,4 @@
-![Status](https://img.shields.io/badge/status-em%20produção-green)
+![Status](https://img.shields.io/badge/status-concluído-brightgreen)
 ![IA](https://img.shields.io/badge/IA-integrada-blue)
 ![CX](https://img.shields.io/badge/CX-inteligência%20ativa-orange)
 
