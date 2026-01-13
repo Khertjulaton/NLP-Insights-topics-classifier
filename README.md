@@ -1,7 +1,7 @@
-![Status](https://img.shields.io/badge/status-concluído-brightgreen)
-![IA](https://img.shields.io/badge/IA-integrada-blue)
-![CX](https://img.shields.io/badge/CX-inteligência%20ativa-orange)
-![PNL](https://img.shields.io/badge/PNL-Natural%20Language%20Processing-6a1b9a?style=for-the-badge&logo=semantic-web&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen?style=flat-square)
+![IA](https://img.shields.io/badge/IA-Integrada-007acc?style=flat-square)
+![CX](https://img.shields.io/badge/CX-Inteligência_Ativa-f57c00?style=flat-square)
+![PNL](https://img.shields.io/badge/PNL-Natural_Language_Processing-6a1b9a?style=flat-square)
 
 
 # NLP Insights & CX Intelligence | Inteligência Artificial e PNL
